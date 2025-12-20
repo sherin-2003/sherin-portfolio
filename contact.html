@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sherin M</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Transition -->
+    <div class="page-transition"></div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Neon Background Effects -->
+    <div class="neon-bg"></div>
+    <div class="neon-grid"></div>
+    <div class="floating-neon">
+        <div class="neon-orb"></div>
+        <div class="neon-orb"></div>
+        <div class="neon-orb"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Sherin</a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="resume.html" class="resume-btn">
+                        <i class="fas fa-file-alt"></i> Resume
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="hero" style="min-height: auto; padding: 8rem 0 5rem;">
+        <div class="container">
+            <div class="section-title">
+                <h1>Get In Touch</h1>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">Let's discuss opportunities or collaborate on projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item" onclick="window.location.href='mailto:sarishsherin@gmail.com'">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>sarishsherin@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" onclick="window.location.href='tel:+917411340477'">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 7411340477</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Bengaluru, India</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links (Rectangular) -->
+                    <div style="margin-top: 2rem;">
+                        <h3 style="color: var(--text); margin-bottom: 1.5rem;">Connect with me</h3>
+                        <div class="social-links-row">
+                            <a href="https://www.linkedin.com/in/sherin-m-aa0661280/" class="social-link-rect linkedin" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/Sherin1234567" class="social-link-rect github" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.instagram.com/____sh_er_in_____/" class="social-link-rect instagram" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-status" id="formStatus"></div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Sherin</div>
+            <p class="footer-tagline">Full-Stack Developer | Java | Web Technologies | Database Management</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sherin-m-aa0661280/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Sherin1234567" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:sarishsherin@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Sherin M. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
